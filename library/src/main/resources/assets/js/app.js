@@ -12,7 +12,7 @@ $(":button").click(function()
 			  //Update the status to lost after user confirms
 			  $('#status' + isbn).html("lost");	
 			  
-			  //disable the button
+			  //disable the Report Lost button
 			  $('#' + isbn).attr("disabled", true);
 			  
 		  }
